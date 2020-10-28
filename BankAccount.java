@@ -18,7 +18,7 @@ public class BankAccount {
     return (accountID);
   }
 
-  public void setpassword(String pass) {
+  public void setPassword(String pass) {
     password = pass;
   }
 
