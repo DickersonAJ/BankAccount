@@ -10,11 +10,11 @@ public class BankAccount {
     password = pass;
   }
 
-  public double getbalance() {
+  public double getBalance() {
     return (balance);
   }
 
-  public int getaccountID() {
+  public int getAccountID() {
     return (accountID);
   }
 
@@ -41,7 +41,7 @@ public class BankAccount {
   }
 
   public String toString() {
-    return (Integer.toString(getaccountID()) + "\t" + String.valueOf(getbalance()));
+    return ("#" + Integer.toString(getAccountID()) + "\t$" + String.valueOf(getBalance()));
   }
 
 }
